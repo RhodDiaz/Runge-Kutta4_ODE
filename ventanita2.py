@@ -73,15 +73,6 @@ class App:
         tableorder4.insert('1.0', order4.to_string())
         tableMerson.insert('1.0', merson.to_string())
 
-
-        # frame.pack(fill="both", expand=True)
-        # table = ttk.Treeview(frame, columns=order4.columns, show="headings")
-        # table.pack(side="left", fill="both", expand=True)
-        # for col in order4.columns:
-        #     table.heading(col, text=col)
-        # for index, row in order4.iterrows():
-        #     table.insert("", "end", values=[row[col] for col in order4.columns])
-
 root = tk.Tk()
 app = App(root)
 root.mainloop()
