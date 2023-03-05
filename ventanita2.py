@@ -53,9 +53,6 @@ class App:
             merson = RungeKuttas(initialValue=(x,y),h_value=h, point=point, equation=equation).rkmMethod()
         print(order4)
 
-        # Crear un diccionario con los datos
-        # data = {"Float 1": [float1], "Float 2": [float2], "Float 3": [float3], "Float 4": [float4], "Float 5": [float5], "Cadena": [cadena]}
-
         # Crear un DataFrame a partir del diccionario y mostrarlo en una tabla
         # order4 = pd.DataFrame(data)
         window = tk.Toplevel(self.master)
