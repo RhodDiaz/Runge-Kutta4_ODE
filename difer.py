@@ -12,7 +12,7 @@ class RungeKuttas(object):
         self._initialValue = initialValue
         self.h_value = h_value
         self.error = error
-        self.solTab = np.zeros((1,8),dtype=float)
+        self.solTab = np.zeros((1,len(self.header)),dtype=float)
         self.point = point
         self.equation = equation
 
@@ -41,7 +41,7 @@ class RungeKuttas(object):
     def iterationsOrder4(self:any) -> None:
         rango = int(np.abs((self._initialValue[0]-self.point)/self.h_value))
         for i in range(0,rango):
-            yn = np.zeros(shape=(1,8))
+            yn = np.zeros(shape=(1,len(self.header)))
             x,y = self.solTab[i,0] + self.h_value,self.solTab[i,1]
             yn[0,0] = x
             yn[0,1] = self.get_y(y=y, k1=self.solTab[i,2], k2=self.solTab[i,3], k3=self.solTab[i,4], k4=self.solTab[i,5])
@@ -69,7 +69,6 @@ class RungeKuttas(object):
     def get_y(self,y:float, k1:float, k2:float, k3:float, k4:float) -> float:
         """Return the next y with a global error of O(h^3)"""
         return y + (k1 + 2 * k2 + 2 * k3 + k4) * self.h_value/6
-    
     #endregion
 
     #region Método de Runge-Kutta-Merson
@@ -137,5 +136,3 @@ class RungeKuttas(object):
         return y + (k1 + 4*k4 + k5)/6
     
     #endregion
-
-print("Paquete importado")

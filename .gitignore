@@ -7,3 +7,27 @@ ventanita.ipynb
 .ipynb_checkpoints/ventanita-checkpoint.ipynb
 __pycache__/difer.cpython-311.pyc
 .ipynb_checkpoints/Métodos Runge-Kuttas-checkpoint.ipynb
+build/ventanita2/Analysis-00.toc
+build/ventanita2/base_library.zip
+build/ventanita2/EXE-00.toc
+build/ventanita2/PKG-00.toc
+build/ventanita2/PYZ-00.pyz
+build/ventanita2/PYZ-00.toc
+build/ventanita2/Tree-00.toc
+build/ventanita2/Tree-01.toc
+build/ventanita2/Tree-02.toc
+build/ventanita2/ventanita2.exe.manifest
+build/ventanita2/ventanita2.pkg
+build/ventanita2/warn-ventanita2.txt
+build/ventanita2/xref-ventanita2.html
+.gitignore
+dist/ventanita2.exe
+__pycache__/difer.cpython-310.pyc
+.gitignore
+P1.spec
+ventanita2.spec
+config.txt
+.ipynb_checkpoints.spec
+build - Acceso directo.lnk
+icono.ico
+oconsole.spec
