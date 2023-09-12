@@ -1,0 +1,17 @@
+# Comentarios comienzan con "#" y son ignorados por PyInstaller
+
+# Información general del archivo
+Product name: Programa1
+Internal name: awesome_app
+Original filename: awesome_app.exe
+File version: 1.0.0.0
+Description: This is my awesome app
+Company: My Company
+Trademark:
+
+# Información de copyright
+Legal copyright: Copyright (c) 2023 My Company
+Legal trademarks:
+
+# Información de versión del producto
+Product version: 1.0.0.0
